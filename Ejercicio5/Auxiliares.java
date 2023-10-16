@@ -1,7 +1,7 @@
 class Auxiliares extends Jugador {
-    private int ataques; // Cantidad de ataques
-    private int bloqueosEfectivos; // Cantidad de bloqueos efectivos
-    private int bloqueosFallidos; // Cantidad de bloqueos fallidos
+    private int ataques;
+    private int bloqueosEfectivos;
+    private int bloqueosFallidos;
 
     public Auxiliares(String nombre, String pais, int errores, int aces, int totalServicios, int ataques,
             int bloqueosEfectivos, int bloqueosFallidos) {
